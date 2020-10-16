@@ -208,7 +208,7 @@ def won?(board)
   
   
   def play(board)
-    puts ""
+    puts "Please enter "
     until over?(board)
       turn(board)
     end
