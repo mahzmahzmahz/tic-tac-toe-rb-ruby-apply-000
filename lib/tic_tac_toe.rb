@@ -205,3 +205,12 @@ def won?(board)
       return "O"
     end
   end
+  
+  
+  def play(board)
+    until over?(board)
+      turn(board)
+    end
+    
+    if won?(board)
+      puts "Congrats"
