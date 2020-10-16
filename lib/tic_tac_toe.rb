@@ -208,6 +208,7 @@ def won?(board)
   
   
   def play(board)
+    puts ""
     until over?(board)
       turn(board)
     end
