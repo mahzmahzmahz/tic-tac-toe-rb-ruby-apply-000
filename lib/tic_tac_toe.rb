@@ -210,10 +210,12 @@ def won?(board)
   def play(board)
     puts "Please enter 1-9:"
     input = gets.strip
+  end
+  
    until over?(board)
      turn(board)
-    end
-  end
+     
+     
     #if won?(board)
      # puts "Congratulations #{winner}"
     #elsif draw?(board)
