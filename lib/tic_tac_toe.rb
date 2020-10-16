@@ -209,17 +209,18 @@ def won?(board)
   
   def play(board)
     puts "Please enter 1-9:"
-    index = gets.strip
-    index = input_to_index
-    until over?(board)
-      turn(board)
-    end
-    
-    if won?(board)
-      puts "Congratulations #{winner}"
-    elsif draw?(board)
-      puts "Cat's Game!"
-    end
+    input = gets.strip
   end
+   # index = input_to_index
+   # until over?(board)
+    #  turn(board)
+    #end
+    
+    #if won?(board)
+     # puts "Congratulations #{winner}"
+    #elsif draw?(board)
+     # puts "Cat's Game!"
+    #end
+  #end
   
       
