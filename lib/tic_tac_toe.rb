@@ -10,8 +10,8 @@ def display_board(board)
   puts " #{board[6]} ""| #{board[7]} |"" #{board[8]} "
 end
 
-def input_to_index(index)
-  return "#{index}".to_i - 1 
+def input_to_index(input)
+  return "#{input}".to_i - 1 
 end
 
 def turn_count(board)
@@ -38,8 +38,8 @@ end
 
 def turn(board)
     puts "Please enter 1-9:"
-    index = gets.strip
-    index = input_to_index(index)
+    input = gets.strip
+    index = input_to_index(input)
   
       if valid_move?(board, index)
         move(board, index, current_player)
