@@ -32,8 +32,8 @@ def current_player(board)
   return "O"
 end
 
-def move(board, index, current_player)
-   board[index] = current_player
+def move(board, index, cur_player)
+   board[index] = cur_player
 end
 
 def turn(board)
