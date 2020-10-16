@@ -209,7 +209,7 @@ def won?(board)
   
   def play(board)
     puts "Please enter 1-9:"
-    index 
+    index = gets.strip
     until over?(board)
       turn(board)
     end
