@@ -212,8 +212,8 @@ def won?(board)
     input = gets.strip
   end
    until over?(board)
-    #  turn(board)
-    #end
+     turn(board)
+    end
     
     #if won?(board)
      # puts "Congratulations #{winner}"
