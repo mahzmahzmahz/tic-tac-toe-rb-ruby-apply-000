@@ -210,8 +210,7 @@ def won?(board)
   def play(board)
     puts "Please enter 1-9:"
     input = gets.strip
-  end
-  
+    index = input_to_index(input)
    until over?(board)
      turn(board)
      
