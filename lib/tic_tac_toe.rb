@@ -208,7 +208,8 @@ def won?(board)
   
   
   def play(board)
-    puts "Please enter "
+    puts "Please enter 1-9:"
+    index 
     until over?(board)
       turn(board)
     end
