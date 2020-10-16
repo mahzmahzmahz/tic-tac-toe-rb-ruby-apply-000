@@ -214,21 +214,22 @@
         1,
         12,
         12,
-        7,
-        0,
-        0,
         null,
         null,
-        0,
-        0,
-        0,
-        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1602881121
+    "timestamp": 1602881374
   }
 }
