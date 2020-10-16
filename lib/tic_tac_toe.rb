@@ -213,7 +213,8 @@ def won?(board)
     index = input_to_index(input)
    until over?(board)
      turn(board)
-     
+   end
+ end
      
     #if won?(board)
      # puts "Congratulations #{winner}"
