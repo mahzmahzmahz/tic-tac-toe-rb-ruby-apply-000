@@ -213,4 +213,10 @@ def won?(board)
     end
     
     if won?(board)
-      puts "Congrats"
+      puts "Congratulations #{winner}"
+    elsif draw?
+      puts "Cat's Game!"
+    end
+  end
+  
+      
